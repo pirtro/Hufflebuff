@@ -1,0 +1,80 @@
+html,
+body {
+    margin: 0px;
+    padding: 0;
+    background: #111;
+}
+
+.wrapper {
+	position: relative;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+    max-width: 960px;
+    min-height: 100vh;
+    margin: 0px auto;
+
+    background: #333;
+}
+
+.logo {
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+    margin: 0;
+    color: orange;
+}
+
+.logo h1 {
+    font-family: "Impact";
+    font-size: 64px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+form {
+	display: flex;
+	flex-flow: column;
+	min-width: 400px;
+	max-width: 400px;
+	background-color: #555;
+	padding: 16px;
+}
+form *{
+	margin-bottom: 3px;
+}
+#knapp {
+	background: orange;
+	border: 0;
+	padding: 18px 0px;
+	font-family: "Impact";
+	font-size: 24px;
+}
+input[type="text"],input[type="number"]{
+	border: 0;
+	padding: 18px 0px;
+	font-family: "Impact";
+	font-size: 24px;
+	text-align: center;
+}
+#result h1 {
+	color: orange;
+	padding: 24px 0;
+	font-family: "Impact";
+	font-size: 90px;
+}
+
+#resultInner {
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+}
+
+#resultInner img {
+	max-width: 90px;
+	margin-right: 24px;
+}
